@@ -92,13 +92,15 @@ Body
 
 POST /api/enquiry/public/enquiries
 
-````{
+```
+{
   "name": "Alice",
   "email": "alice@gmail.com",
   "phone": "9876543210",
   "message": "Interested in AI course",
   "courseInterest": "AI/ML"
-}```
+}
+```
 
 ## ✅ Get All Unclaimed Enquiries
 
@@ -106,7 +108,9 @@ GET /api/enquiry/unclaimed
 🔒 Requires Bearer Token
 Header
 
-```Authorization: Bearer <token>```
+```
+Authorization: Bearer <token>
+```
 
 ## ✅ Claim an Enquiry
 
@@ -118,19 +122,19 @@ PATCH /api/enquiry/:id/claim
 GET /api/enquiry/claimed
 🔒 Requires Bearer Token
 
-
 ## 🧪 How to Test APIs
+
 Step
-1️⃣	Register employee
-2️⃣	Login → copy token
-3️⃣	Submit enquiry (public)
-4️⃣	Get unclaimed enquiries (add token)
-5️⃣	Claim enquiry
-6️⃣	View my claimed enquiries
+1️⃣ Register employee
+2️⃣ Login → copy token
+3️⃣ Submit enquiry (public)
+4️⃣ Get unclaimed enquiries (add token)
+5️⃣ Claim enquiry
+6️⃣ View my claimed enquiries
 
 ## 🚀 Run Locally
 
-```npm install
-npm start```
-
-````
+```
+npm install
+npm start
+```
