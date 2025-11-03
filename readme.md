@@ -122,15 +122,16 @@ PATCH /api/enquiry/:id/claim
 GET /api/enquiry/claimed
 🔒 Requires Bearer Token
 
-## 🧪 How to Test APIs
+### 🧪 How to Test APIs
 
-Step
-1️⃣ Register employee
-2️⃣ Login → copy token
-3️⃣ Submit enquiry (public)
-4️⃣ Get unclaimed enquiries (add token)
-5️⃣ Claim enquiry
-6️⃣ View my claimed enquiries
+#### ✅ Steps to test using Postman / Thunder Client
+
+1. **Register Employee**
+2. **Login** → Copy the JWT Token
+3. **Submit Public Enquiry**
+4. **Get Unclaimed Enquiries** _(Add Bearer Token in Headers)_
+5. **Claim an Enquiry**
+6. **View My Claimed Enquiries**
 
 ## 🚀 Run Locally
 
@@ -138,3 +139,9 @@ Step
 npm install
 npm start
 ```
+
+### 👨‍💻 Developer
+
+**Avanish Singh**  
+📍 MERN Stack & Backend Developer  
+💼 Building scalable apps & real-world backend systems
