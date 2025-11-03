@@ -69,22 +69,26 @@ JWT_SECRET_KEY=your_secret_key
 POST /api/auth/register
 Body
 
-````{
+```
+{
   "name": "John Doe",
   "email": "john@example.com",
   "password": "123456"
-}```
+}
+```
 
 ## ✅ Login Employee
 
 POST /api/auth/login
 Body
-````
+
+```
 
 {
 "email": "john@example.com",
 "password": "123456"
-}```
+}
+```
 
 ### 📞 Enquiry APIs
 
